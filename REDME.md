@@ -1,4 +1,4 @@
-# CAlculator
+# Calculator
  it is a JavaScript Calculator. and it is based on JavaScript.
  this calculator create by Amit999github.
 
