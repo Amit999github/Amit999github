@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal_box">
+        <div class="display">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="buttons_container">
+            <button class="butons" onclick="
+            currDisplay ='';
+            inp.value = currDisplay;
+            ">c</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'1';
+            inp.value = currDisplay;
+            ">1</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'2';
+            inp.value = currDisplay;
+            ">2</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'3';
+            inp.value = currDisplay;
+            ">3</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'+';
+            inp.value = currDisplay;
+            ">+</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'4';
+            inp.value = currDisplay;
+            ">4</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'5';
+            inp.value = currDisplay;
+            ">5</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'6';
+            inp.value = currDisplay;
+            ">6</button>
+            <button class="butons"
+            onclick="
+            currDisplay = currDisplay +'_';
+            inp.value = currDisplay;
+            ">-</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'7';
+            inp.value = currDisplay;
+            ">7</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'8';
+            inp.value = currDisplay;
+            ">8</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'9';
+            inp.value = currDisplay;
+            ">9</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'*';
+            inp.value = currDisplay;
+            ">*</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'0';
+            inp.value = currDisplay;
+            ">0</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'.';
+            inp.value = currDisplay;
+            ">.</button>
+            <button class="butons" onclick=" 
+            currDisplay = eval(currDisplay);
+            inp.value = currDisplay;
+            ">=</button>
+            <button class="butons" onclick="
+            currDisplay = currDisplay +'/';
+            inp.value = currDisplay;
+            ">/</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
